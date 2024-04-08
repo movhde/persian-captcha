@@ -8,7 +8,7 @@ Then you should add these three methods to generate your captcha:
 + generateId( a number between 1 to 4 to specify which kind of captcha you're using )
 ## An example :
 ```php
-  <?php $complicatedMathCap->create(); ?>
-  <img id="complex_captcha" src="data:image/jpeg;base64,<?php $complicatedMathCap->show(); ?>" alt="captcha">
-  <?php $complicatedMathCap->generateId(2); ?>
+<?php $complicatedMathCap->create(); ?>
+<img id="complex_captcha" src="data:image/jpeg;base64,<?php $complicatedMathCap->show(); ?>" alt="captcha">
+<?php $complicatedMathCap->generateId(2); ?>
 ```
