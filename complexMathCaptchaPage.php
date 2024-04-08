@@ -57,7 +57,7 @@ $_SESSION['previous'] = basename($_SERVER['PHP_SELF']);
               </svg>
             </div>
           </div>
-          <?php if (isset($_SESSION['incorrect_info']) && $_SESSION['incorrect_info'] == 1) : ?> <span class="text-sm text-red-400 -mt-2">حاصل جمع را اشتباه وارد کردید.</span> <?php endif; ?>
+          <?php if (isset($_SESSION['incorrect_info']) && $_SESSION['incorrect_info'] == 1) : ?> <span class="text-sm text-red-400 -mt-2">نتیجه را اشتباه وارد کردید.</span> <?php endif; ?>
           <div>
             <input type="submit" value="ثبت" class="w-full text-sm bg-white focus:shadow-lg focus:shadow-[#f0fbea]-500/40 border-2 border-transparent focus:outline-none hover:bg-[#f0fbea] hover:opacity-65 hover:cursor-pointer transition duration-300 p-1 sm:p-1.5 rounded-xl">
           </div>
